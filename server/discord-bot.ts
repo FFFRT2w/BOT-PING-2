@@ -19,7 +19,6 @@ import {
 } from "discord.js";
 import { storage } from "./storage";
 import { uptimeRobotService } from "./uptimerobot";
-import { insertMonitoredBotSchema } from "@shared/schema";
 import { randomBytes, randomUUID } from "crypto";
 import type { MonitoredBot } from "@shared/schema"; // ← ADICIONAR IMPORT
 
